@@ -1,0 +1,107 @@
+body {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 210px; /* Set a width for the button field */
+    height: 50px; /* Set a height for the button field */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h1 {
+    text-align: center;
+    display: inline-block;
+    font-size: 38px;
+    margin-top: 80px;
+  }
+  
+  @media only screen and (max-width: 710px) {
+    h1 {
+      font-size: 18px; /* Adjusted font size for 480px screen */
+      text-align: center;
+      display: inline-block;
+      width: 200px;
+      margin-top: 60px;
+    }
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    align-items: center;
+  }
+  @media (max-width: 480px) {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 5px;
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .box {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin: 66px;
+  }  
+
+  body > div > div.box.element-container > div.element.title-container{
+    background-color: #F9F4F3;
+  }  
+
+  nav {
+    display: flex; /* Make the navigation bar a flex container */
+    justify-content: space-between; /* Align items evenly on the left and right */
+    align-items: center; /* Align content vertically in the center */
+    padding: 10px 20px; /* Add some padding inside the navbar */
+    background-color: #f0f0f0; /* Optional background color */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center; /* Align logos vertically in the center */
+  }
+  
+  .navigation-links {
+    display: flex; /* Make navigation links a flex container */
+    list-style: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navigation-links a {
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 20px; /* Add some margin between links */
+    color: #333; /* Link color */
+  }
+  
+  .navigation-links a:hover {
+    color: #000; /* Change link color on hover */
+  }
+  
+  /* Style the input field */
+  input[type="text"] {
+    padding: 5px; /* Add some padding inside the input */
+    margin:10px;
+    border: 1px solid #ccc; /* Add a thin border */
+    border-radius: 3px; /* Add rounded corners */
+    font-size: 16px; /* Set the font size */
+  }
+  

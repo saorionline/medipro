@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediPro</title>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo-container">
+              <img src="src/assets/logo1.png" alt="Logo1" class="logo-image"/>
+            </div>
+            <div class="navigation-links">
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+            <div class="logo-container">
+              <img src="src/assets/logo2.png" alt="Logo2" class="logo-image"/>
+            </div>
+        </nav>
+        <div class="box element-container">
+            <form id="">
+                <label for="name">What is your name?</label></form>
+                <input type="text" id="name" name="name" placeholder="Here" requiredautocomplete="name"><br>
+                <button>Start</button>
+              </form>
+        </div>
+        <div class="box element-container">
+            <dotlottie-player src="https://lottie.host/5e38b53b-ea0f-49b4-9ad6-18bbf7fe6918/lqgyTDbDAY.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+        </div>
+    </div>
+</body>
+</html>
