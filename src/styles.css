@@ -6,7 +6,7 @@ body {
   }
   
   button {
-    margin: 10px;
+    margin: 10px 0px 40px;
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -37,30 +37,24 @@ body {
       margin-top: 60px;
     }
   }
-  .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
-    align-items: center;
-  }
-  @media (max-width: 480px) {
-    .container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 5px;
-      align-items: center;
-      grid-template-columns: 1fr;
-    }
-  }
-  
+
   .box {
+    display: inline-flex;
+    flex-direction: column;
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     align-items: center;
-    margin: 66px;
+    margin: 80px 0px 0px 0px;
+    width: 400px;
   }  
+  
+  @media only screen and (max-width: 380px) {
+    .box{
+        width: 250px;
+    }
+  }
 
   .card {
     display: flex; 
