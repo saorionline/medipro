@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
         <nav>
             <div class="logo-container">
               <img src="src/assets/logo1.png" alt="Logo1" class="logo-image"/>
@@ -25,16 +24,17 @@
               <img src="src/assets/logo2.png" alt="Logo2" class="logo-image"/>
             </div>
         </nav>
-        <div class="box element-container">
+        <div class="box">
             <form id="">
-                <label for="name">What is your name?</label></form>
+                <label for="name" class="name">What is your name?</label></form>
                 <input type="text" id="name" name="name" placeholder="Here" requiredautocomplete="name"><br>
                 <button>Start</button>
               </form>
         </div>
-        <div class="box element-container">
+        <div class="card">
             <dotlottie-player src="https://lottie.host/5e38b53b-ea0f-49b4-9ad6-18bbf7fe6918/lqgyTDbDAY.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
         </div>
-    </div>
+
+    <script src="my-script.js"></script>
 </body>
 </html>

@@ -62,6 +62,11 @@ body {
     margin: 66px;
   }  
 
+  .card {
+    display: flex; 
+    justify-content: center;
+  }
+
   body > div > div.box.element-container > div.element.title-container{
     background-color: #F9F4F3;
   }  
@@ -77,6 +82,10 @@ body {
   .logo-container {
     display: flex;
     align-items: center; /* Align logos vertically in the center */
+  }
+  .logo-image {
+    width: auto; /* Adjust width of your logos */
+    height: 50px; /* Adjust height of your logos */
   }
   
   .navigation-links {
@@ -105,3 +114,13 @@ body {
     font-size: 16px; /* Set the font size */
   }
   
+  .name {
+    display: block;
+    margin-top: 30px;
+  }
+
+  form {
+    overflow: auto;
+    /*border: 1px solid #ccc;  Add a thin border */
+    border-radius: 5px; /* Add rounded corners */
+  }
