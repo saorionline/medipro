@@ -157,3 +157,17 @@ const testPatient = createPatient2({
 });
 
 // Y así se van agregando más instancias y prototipos secuencialmente. 🤓
+
+// Seeds
+console.log(testPatient.name); // Output: "John Doe"
+console.log(testPatient.email); // Output: "john.doe@example.com"
+console.log(testPatient.age); // Output: 30
+console.log(testPatient.assignedDoctor); // Output: "Dr. Smith"
+console.log(testPatient.listOfOrders); // Output: ["Order 1", "Order 2"]
+console.log(testPatient.prescriptions); // Output: ["Prescription 1", "Prescription 2"]
+console.log(testPatient.approvedMovements); // Output: Array with 2 objects
+console.log(testPatient.treatmentPaths); // Output: Array with 2 objects
+
+// Seed 2
+console.log(testApprovedMovs.name); // Output: "Movement 1"
+console.log(testApprovedMovs.movements); // Output: Array with 2 elements

@@ -7,3 +7,4 @@ In today's fast-paced medical landscape, navigating the complexities of diagnosi
 
 With MediPro, your medical information is securely transferred between healthcare professionals and businesses, ensuring a seamless continuum of care. No more lost paperwork or miscommunication - everything you need is right at your fingertips. And the best part? You can track the status of your medical journey, from diagnosis to treatment, with real-time updates on wait times and processing stages.
 
+`![Screenshot](MediPro2.png)`
